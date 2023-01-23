@@ -1,0 +1,208 @@
+
+.destination-page{
+    background: url('../../public/assets/destination/background-destination-mobile.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    backdrop-filter:blur(7px);
+    border: 2px solid;
+}
+.destination-content{
+    z-index: 2;
+   width: 75%;
+   margin: 3em auto;
+   max-width: 650px;
+   min-height: 100vh;
+   color: white;
+}
+
+.des-num{
+    padding-right: .5em;
+    opacity: .5;
+}
+.destination-toptext{
+    font-size: .85rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 7em;
+   
+}
+.uppercase{
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 100;
+}
+.footer-style{
+    font-size:1.2rem ;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:400;
+}
+.horizontal{
+    opacity: .4;
+}
+.destination-name{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+.destination-nav{
+    font-size: .7rem;
+     margin-top: 2em;
+     
+}
+.solar-links{
+  
+    background: none;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+.solar-links:hover{
+    padding: .5em 3px;
+    border-bottom: 1px solid white;
+}
+a{
+    padding: 0 .3em;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    opacity: .8;
+    
+}
+
+a:hover{
+    border-bottom: 2px solid white;
+    padding: .5em;
+}
+.image{
+    width: 100%;
+    margin-top: 1.5em;
+}
+@media (min-width:800px) and (max-width:1024px){
+    .destination-page{
+        background: url('../../public/assets/destination/background-destination-tablet.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        backdrop-filter:blur(7px);
+        border: 2px solid;
+    }
+    .destination-toptext{
+        font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 7em;
+    }
+    .solar-links{
+       
+        background: none;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
+   .destination-name{
+    font-size: 2rem;
+    font-weight: 300;
+   }
+   .destination-description{
+    font-size: 1.2rem;
+    font-weight: 200;
+   }
+   .opaque{
+    opacity: .6;
+    margin-bottom: -.2em;
+    font-size: 1rem;
+    letter-spacing: 1px;
+   }
+   .visibility{
+    opacity: 1;
+    font-size: 2rem;
+    font-weight: 300;
+   }
+}
+@media (min-width:1025px) and (max-width:1500px){
+    .destination-page{
+        background: url('../../public/assets/destination/background-destination-desktop.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        backdrop-filter:blur(7px);
+        border: 2px solid;
+    }
+    .destination-content{
+        
+        z-index: 2;
+       width:100% ;
+       max-width: 800px;
+       margin: 3em auto;
+       min-height: 100vh;
+       color: white;
+       display: flex;
+       justify-content:space-between;
+       align-items: center;
+    }
+    .destination-left{
+        width: 40%;
+
+    }
+    .destination-right{
+        width: 40%;
+        margin-top: 2em;
+    }
+    .destination-toptext{
+        margin-top: .5em;
+        text-align: left;
+        font-size: 1.2rem;
+    }
+.destination-nav{
+    margin-bottom: -4em;
+    padding-bottom: 3em;
+  
+}
+    .solar-links{
+        font-size: 1.2rem;
+    }
+    .destination-name{
+        font-size: 2rem;
+    }
+    .destination-description{
+        margin-top: -1em;
+        font-size: 1.1rem;
+    }
+    .destination-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+    }
+    .opaque{
+        opacity: .6;
+        margin-bottom: -.2em;
+        font-size: .85rem;
+        letter-spacing: 1px;
+       }
+       .visibility{
+        opacity: 1;
+        font-size: 1.3rem;
+        font-weight: 400;
+       }
+
+}
+
+
+@supports (backdrop-filter: blur(10px)) {
+    .destination-page{
+        backdrop-filter: blur(10px);
+    }
+}

@@ -1,0 +1,240 @@
+
+.home-page{
+    background-image: url("../../public/assets/home/background-home-mobile.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:2px solid  ;
+    backdrop-filter:blur(7px);
+    min-height: 100vh;
+}
+.home-content{
+    width: 65%;
+    max-width: 900px;
+    margin:10.5em auto;
+    
+    z-index: 2;
+    color: white;
+    min-height: 300px;
+
+} 
+.top-text{
+    font-size: .55rem;
+    margin-top: 4em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+   text-transform: uppercase;
+   text-align: center;
+}
+.home-bold{
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: -.1em;
+    margin-left: -.2em;
+    text-align: center;
+}
+
+.home-paragraph{
+    margin-top: -3.5em;
+    font-size: 1rem;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  
+}
+.home-footer{
+    position: relative;
+    top: 6em;
+    left: 20%;
+    border-radius: 70%;
+    background-color: white;
+    height: 7em;
+    width: 7.5em;
+}
+.explore{
+    text-transform: uppercase;
+    position: relative;
+    top: 3em;
+    left: 1.5em;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+
+@media (min-width:600px) and (max-width:800px){
+    .home-page{
+        background: url("../../public/assets/home/background-home-tablet.jpg");
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+    }
+    .top-text{
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+    .home-bold{
+        font-size: 7.5rem;
+        margin-left: .1em;
+    }
+    .home-paragraph{
+        margin-top: -5em;
+        font-size: 1.2rem;
+    }
+    .home-footer{
+        width: 11em;
+        height: 10em;
+        top: 2em;
+    }
+    .explore{
+        font-size: 1.4rem;
+        margin-right: .6em;
+    }
+
+}
+@media(min-width:801px) and (max-width:1024px){
+    .top-text{
+      font-size: 1.7rem;
+      font-weight: 200;
+    }
+    .home-bold{
+        margin-top: -.2em;
+       font-size: 9rem;
+       padding: 0 .5em;
+       letter-spacing: 2.5px;
+    }
+    .home-paragraph{
+        margin-top: -3.5em;
+        font-size: 2rem;
+    }
+    .home-footer{
+        width: 13em;
+        height: 12em;
+        top: 3em;
+    }
+    .explore{
+        font-size: 2rem;
+        margin: -.5em -.3em;
+       position: relative;
+       top:2.5em
+
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px){
+    .home-page{
+        background: url("../../public/assets/home/background-home-desktop.jpg");
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+    }
+    .home-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 65%;
+        margin: 0 auto;
+        position: absolute;
+        left: 2em;
+        top: 5em;
+        
+    }
+    .top-text{
+        font-size: 1.2rem;
+        font-weight: 200;
+      }
+      .text-container{
+        width: 55%;
+        
+        position:relative;
+        top: em;
+        left: 2em;
+    }
+      .home-bold{
+        margin-top: -.2em;
+       font-size: 7rem;
+       padding: 0 .3em;
+       letter-spacing: 2.5px;
+    }
+    .home-paragraph{
+        margin-top: -6.5em;
+        font-size: 1rem;
+        text-align: justify;
+       
+    }
+    .home-footer{
+        width:10em;
+        height:9em;
+        top: 3em;
+    }
+    .explore{
+        font-size: .9rem;
+        margin: -.5em -.1em;
+       position: relative;
+       top:5.5em;
+       left: 3em;
+    }
+}
+
+    @media (min-width:1201px) and (max-width:1500px){
+        .home-page{
+            background: url("../../public/assets/home/background-home-desktop.jpg");
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+        }
+        .home-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 65%;
+            margin: 0 auto;
+            position: absolute;
+            left: 2.5em;
+         
+        }
+        .text-container{
+            width: 55%;
+
+            position:relative;
+            top: 2em;
+            left: 3em;
+        }
+        .top-text{
+            font-size: 1.5rem;
+            font-weight: 200;
+          }
+          .home-bold{
+            margin-top: -.2em;
+           font-size: 8.5rem;
+           letter-spacing: 2.5px;
+        } 
+        .home-paragraph{
+            margin-top: -8.5em;
+            font-size: 1rem;
+            text-align: justify;
+            /* width: 50%; */
+        }
+        .home-footer{
+            width:10em;
+            height:9em;
+            top: 3em;
+        }
+        .explore{
+            font-size: 1.1rem;
+            margin: -.5em -.1em;
+           position: relative;
+           top:4em;
+           left: 2.3em;
+        }
+
+
+    }
+
+
+
